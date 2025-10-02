@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Nguyễn Thị Bảo Ny - EX49</title>
+        <link rel="stylesheet" href="mainstyle.css" />
+    </head>
+    <body>
+        <form name="frm_classified">
+        <header>
+            <h1>Online Classifieds Search Form</h1>
+        </header>
+        <hr />
+        <main>
+            <ol>
+                <li>
+                    Search for classified in the following sections:
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" name="classified" id="classified1"/>
+                                <label for="classified1">Employment</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="classified" id="classified2"/>
+                                <label for="classified2">Personal</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="classified" id="classified3"/>
+                                <label for="classified3">For Sale</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="classified" id="classified4"/>
+                                <label for="classified4">Miscellaneous</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="classified" id="classified5"/>
+                                <label for="classified5">Housing</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="classified" id="classified6"/>
+                                <label for="classified6">All of the above</label>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    Search the following publications:
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="checkbox_1" id="checkbox_1" />
+                                <label for="checkbox_1">Midwest times</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="checkbox_2" id="checkbox_2" />
+                                <label for="checkbox_2">Modern News</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="checkbox_3" id="checkbox_3" />
+                                <label for="checkbox_3">Employment Today</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="checkbox_4" id="checkbox_4" />
+                                <label for="checkbox_4">Great Lakes Classifieds</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="checkbox_5" id="checkbox_5" />
+                                <label for="checkbox_5">Middleton Daily</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="checkbox_6" id="checkbox_6" />
+                                <label for="checkbox_6">Cashtown Daily News</label>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    From
+                    <input type="date" name="startdate" id="startdate" />
+                    to
+                    <input type="date" name="enddate" id="enddate" />
+                </li>
+                <li>
+                    Enter a keyword to describe the classified
+                    <br />
+                    <input type="text" name="keywords" id="keywords" />
+                </li>
+                <li>
+                    Click one of the option below:
+                    <br />
+                    <button type="button" id="search" title="Search"></button>
+                        <button type="button" id="help" title="Help"></button>
+                            <button type="button" title="Cancel" id="cancel"></button>
+                </li>
+            </ol>
+        </main>
+    </form>
+    </body>
+</html>
