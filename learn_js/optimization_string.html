@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Tiêu đề trang</title>
+        <script>
+            function process_input()
+            {
+                name_output.innerText=my_form.name_input.value.toUpperCase()
+            }
+        </script>
+    </head>
+    <body>
+        <form name="my_form">
+            <table>
+                <tr>
+                    <td>Input:</td>
+                    <td><input type="text" name="name_input" id="name_input" oninput="process_input()"/></td>
+
+                </tr>
+                <tr>
+                    <td>Output:</td>
+                    <td id="name_output"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
